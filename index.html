@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+
+    <!-- Font Awesome CDN Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="logo">coffee <i class="fas fa-mug-hot"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" class="search-box" placeholder="Expresso.." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/menu-1.png" alt="" />
+          <div class="content">
+            <h3 class="item-title">Latte</h3>
+            <div class="item-price">100 rupees-/-</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/menu-2.png" alt="" />
+          <div class="content">
+            <h3 class="item-title">Mocha</h3>
+            <div class="item-price">80 rupees-/-</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/menu-3.png" alt="" />
+          <div class="content">
+            <h3 class="item-title">Ristretto</h3>
+            <div class="item-price">90 rupees-/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/menu-4.png" alt="" />
+          <div class="content">
+            <h3 class="item-title">Flat White </h3>
+            <div class="item-price">200 rupees-/-</div>
+          </div>
+        </div>
+        <a href="" class="btn"> Check out</a>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh chocolate coffee in the morning</h3>
+        <p>
+          The delicious taste comes from a juxtaposition between coffee's bitterness and chocolate's sweetness.
+           The balance of flavor between these two makes their resulting flavor unforgettable.
+        </p>
+        <a href="#" class="btn"> buy one now </a>
+      </div>
+
+      <div class="image">
+        <img src="" alt="" class="main-home-image" alt="" />
+      </div>
+
+      <div class="image-slider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h1 class="heading">about <span>us</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">what's make our coffee special!</h3>
+          <p>
+            First, it's the plant itself. Specialty coffee is exclusively made of a family of varieties under the Arabica species.
+             Coffea Arabica is a delicate plant that is prone to diseases and requires specific conditions to grow- rich soil and high altitudes.
+          </p>
+          <p>
+            The coffees are assessed based on how they are grown, processed, their fragrance, body, aroma, acidity, and balance. If you brew a cup of specialty coffee, you'll be able to taste a drink that has multiple aromas and flavors.
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="images/about-icon-1.png" alt="" />
+              <h3>quality coffee</h3>
+            </div>
+            <div class="icons">
+              <img src="images/about-icon-2.png" alt="" />
+              <h3>our branches</h3>
+            </div>
+            <div class="icons">
+              <img src="images/about-icon-3.png" alt="" />
+              <h3>free delivery</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our menu <span>popular menu</span></h1>
+
+      <div class="menu-items-container">
+        <div href="#" class="menu-item">
+          <img src="images/menu-1.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Latte</h3>
+            <p class="menu-description">
+              Originating in Portugal, this hot coffee drink is closely related
+              to the latte and cappuccino.
+            </p>
+            <a class="menu-price"<span>100 rupees</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+
+        <div href="#" class="menu-item">
+          <img src="images/menu-2.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Mocha</h3>
+            <p class="menu-description">
+              The sweetest type of coffee to get and most commonly available is
+              a mocha, with chocolate to give the drink a sweetness and milk to
+              mask the bitterness.
+            </p>
+            <a class="menu-price"<span>80 rupees<span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+
+        <div href="#" class="menu-item">
+          <img src="images/menu-3.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Ristretto</h3>
+            <p class="menu-description">
+              Ristretto is an espresso shot. It uses less hot water which
+              creates a sweeter flavor compared to the bitter taste of a
+              traditional shot of espresso
+            </p>
+            <a class="menu-price"<span>90 rupees</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="images/menu-4.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Flat white</h3>
+            <p class="menu-description">
+              A flat white also originates from New Zealand and Australia and is
+              very similar to a cappuccino
+            </p>
+            <a class="menu-price" <span>200 rupees</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="images/menu-5.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Cortado</h3>
+            <p class="menu-description">
+              Cortado - Made with lightly steamed milk without froth or foam
+            </p>
+            <a class="menu-price"<span>120 rupees</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="images/menu-6.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Irish coffee</h3> coffee</h3>
+            <p class="menu-description">
+              One of the most popular drinks in Ireland is undoubtedly Irish coffee.
+            </p>
+            <a class="menu-price"<span>150 rupees</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="product-items-container">
+        <div class="product-item">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" srcset="" />
+          </div>
+          <div class="product-info">
+            <h3>  Chocolate  coffee</h3>
+            <div class="rating-point">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="product-price" <span>4999 rupees</span></div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-2.png" alt="" srcset="" />
+          </div>
+          <div class="product-info">
+            <h3>Barista coffee</h3>
+            <div class="rating-point">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="product-price" <span>1599 rupees<span></div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-3.png" alt="" srcset="" />
+          </div>
+          <div class="product-info">
+            <h3>Brazil coffee</h3>
+            <div class="rating-point">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="product-price" <span>2000 rupees</span></div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-4.png" alt="" srcset="" />
+          </div>
+          <div class="product-info">
+            <h3>Coffee beans</h3>
+            <div class="rating-point">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="product-price"<span>1150 rupees</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEW -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>reviews</span></h1>
+      <div class="review-list">
+        <div class="review-item">
+          <i class="fas fa-quote-right"></i>
+          <p>
+            I really like the atmosphere, good coffee, and nice interior.This is
+            a good place to study or chill with friends. The drinks and foods
+            were all tasty and worthwhile. If you’re up for a fresh place with
+            beautiful architecture then this is a must to visit.
+          </p>
+          <img src="images/pic-1.png" alt="" class="customer-pic" />
+          <h3 class="customer-name">john</h3>
+          <div class="rating-point">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="review-item">
+          <i class="fas fa-quote-right"></i>
+          <p>
+            This coffee shop is my favorite place to hang and do my works. I
+            really like this place because it has a good ambiance and not too
+            crowded as well. The coffee and pastries that they had were so
+            delicious.
+          </p>
+          <img src="images/pic-2.png" alt="" class="customer-pic" />
+          <h3 class="customer-name">Tanu</h3>
+          <div class="rating-point">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="review-item">
+          <i class="fas fa-quote-right"></i>
+          <p>
+            If you’re looking for a place where to relax and read some novels or
+            whatever, this coffee shop would be the best. They have the best
+            coffee available and even some fresh baked goods as well. The
+            ambiance of this shop was so relaxing, and the staffs are highly
+            capable. I could not ask for more because everything that I needed
+            was provided. Well done, guys! Keep making great coffee and
+            pastries!
+          </p>
+          <img src="images/pic-3.png" alt="" class="customer-pic" />
+          <h3 class="customer-name">krish</h3>
+          <div class="rating-point">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact </span> us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7862.715361184014!2d105.81457039197002!3d9.820295864662423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a05f113dc4f4d5%3A0xbf0ced07c2d0dd33!2sLike%20coffee%20%26%20tea!5e0!3m2!1sen!2s!4v1703058714096!5m2!1sen!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="" method="post">
+          <h3>get in touch</h3>
+          <div class="input-box">
+            <span class="fas fa-user"></span>
+            <input
+              type="text"
+              name="name"
+              id="contact-user"
+              placeholder="Your name is .."
+            />
+          </div>
+          <div class="input-box">
+            <span class="fas fa-envelope"></span>
+            <input
+              type="email"
+              name="email"
+              id="contact-email"
+              placeholder="example@mail.com"
+            />
+          </div>
+          <div class="input-box">
+            <span class="fas fa-phone"></span>
+            <input
+              type="tel"
+              id="phone"
+              name="contact-phone"
+              placeholder="(+91).."
+            
+            />
+          </div>
+          <input type="submit" value="contact now" class="btn" onclick="contactusnow()"/>
+        </form>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+      <div class="blogs-list">
+        <div class="blog-item">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="" srcset="" />
+          </div>
+          <div class="blog-summarized-content">
+            <a href="#" class="blog-title">Leo coffee</a>
+            <span class="author-timestamp">by admin /21st may,2023</span>
+            <p>
+              Leo Coffee's philosophy exemplified by their traditions is to
+              dispatch only the freshest coffee to our customers reflects our
+              constant strive for perfection. Best traditional South Indian
+              filter coffee - beans, freshly ground, instant mix, readymade
+              decoction. Rich coffee-making equipment - brass filters, french
+              press, percolators, vending machines
+            </p>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="" srcset="" />
+          </div>
+          <div class="blog-summarized-content">
+            <a href="#" class="blog-title">Cold brew coffee</a>
+            <span class="author-timestamp">by admin /21st may,2023</span>
+            <p>
+              Cold brew coffee is perfect drink for hot summer days but why you
+              should definitely sell it in your café? Here are my four reasons
+              why every café should sell cold brew coffee throughout the year!
+            </p>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="" srcset="" />
+          </div>
+          <div class="blog-summarized-content">
+            <a href="#" class="blog-title">chocolate coffee</a>
+            <span class="author-timestamp">by admin /19th October,2023</span>
+            <p>
+              Many delicious chocolate sauces can be made at home. Generally,
+              these sauces consist of cream, melted chocolate, sugar, and cocoa
+              powder. However, many handy store-bought chocolate syrups go great
+              in coffee as well! Here are the most popular options and how to
+              use them in coffee.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin-in"></a>
+        <a href="#" class="fab fa-pinterest-p"></a>
+      </div>
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </div>
+      <div class="credit">
+        created by <span>DSU students</span>| all rights are reserved
+      </div>
+    </section>
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
